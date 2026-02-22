@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* WhatsApp Float */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    background-color: #25d366;
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.whatsapp-float img {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: #012647;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    img {
+        max-width: 150px;
+        height: auto;
+        scale: 2.5;
+    }
+}
