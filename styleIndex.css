@@ -8,7 +8,7 @@ body {
 header {
     background-color: #012647;
     color: #ffffff;
-    padding: 25px 20px;
+    padding: 40px 20px;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -21,7 +21,7 @@ header {
     justify-content: flex-start;
     max-width: 100%; /* Cambiado para que use todo el ancho */
     margin: 0;
-    padding: 0 10px; /* Un poco de aire en los bordes */
+    padding: -100 10px; /* Un poco de aire en los bordes */
     margin-right: 115px; /* Espacio para la barra de búsqueda */
 }
 
@@ -52,7 +52,7 @@ header {
     width: auto;
     display: inline-block;
     vertical-align: middle;
-    scale: 3.6;
+    scale: 5;
 }
 
 /* Barra de Búsqueda a la derecha */
