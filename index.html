@@ -55,9 +55,57 @@
         </section>
         
         <section class="products-grid">
-            <p style="text-align: center; color: #666;">Cargando equipos...</p>
+            <h2 class="category-title">Radios / VHF</h2>
+    
+    <div class="products-grid">
+        <article class="product-card">
+            <div class="product-image">
+                <img src="Assets/Img/yaesu-ft2980.jpg" alt="Yaesu FT-2980">
+                <span class="status-tag">Disponible</span>
+            </div>
+            <div class="product-info">
+                <span class="category-path">Radios > VHF</span>
+                <h3>Yaesu FT-2980R</h3>
+                <p class="specs">80 Watts - Robusta - Pantalla LCD grande</p>
+                <p class="price">$250.000</p>
+                <div class="card-buttons">
+                    <a href="#" class="btn-detail">Ver más</a>
+                    <a href="https://wa.me/5491133973051" class="btn-whatsapp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </article>
+
+        </div>
         </section>
     </main>
+
+    <main id="catalogo">
+    <section id="categoria-vhf" class="product-section">
+        <h2 class="category-title">Radios / VHF</h2>
+        <div class="products-grid">
+            <article class="product-card">...</article>
+        </div>
+    </section>
+
+    <section id="categoria-uhf" class="product-section" style="display:none;">
+        <h2 class="category-title">Radios / UHF</h2>
+        <div class="products-grid">
+            </div>
+    </section>
+
+    <section id="categoria-osciloscopios" class="product-section" style="display:none;">
+        <h2 class="category-title">Instrumental / Osciloscopios</h2>
+        <div class="products-grid">
+            </div>
+    </section>
+</main>
+
+    <div class="dropdown-container">
+    <a href="#" onclick="mostrarCategoria('categoria-uhf')">UHF</a>
+    <a href="#" onclick="mostrarCategoria('categoria-vhf')">VHF</a>
+    <a href="#" onclick="mostrarCategoria('categoria-hf')">HF</a>
+</div>
+<a href="#" onclick="mostrarCategoria('categoria-osciloscopios')">Osciloscopios</a>
 
     <footer>
         <p>&copy; 2026 SegundaRadio. Todos los derechos reservados.</p>

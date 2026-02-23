@@ -23,3 +23,25 @@ for (var i = 0; i < dropdown.length; i++) {
         }
     });
 }
+
+
+
+
+function mostrarCategoria(idCategoria) {
+    // 1. Buscamos todas las secciones de productos
+    const secciones = document.querySelectorAll('.product-section');
+    
+    // 2. Las ocultamos todas
+    secciones.forEach(seccion => {
+        seccion.style.display = 'none';
+    });
+    
+    // 3. Mostramos solo la que nos interesa
+    const seleccionada = document.getElementById(idCategoria);
+    if (seleccionada) {
+        seleccionada.style.display = 'block';
+    }
+    
+    // 4. Cerramos el menú lateral automáticamente
+    closeNav();
+}
