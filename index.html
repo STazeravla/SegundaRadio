@@ -16,14 +16,22 @@
             <button class="dropdown-btn">Radios <i class="fa fa-caret-down"></i></button>
             <div class="dropdown-container">
                 <a href="#">UHF</a>
-                <a href="VHF.html">VHF</a>
+                <a href="VHF/VHF.html">VHF</a>
                 <a href="#">HF</a>
             </div>
             <a href="#">Osciloscopios</a>
+            <a href="../Handy/handy.html">Handy</a>
             <a href="#">Micrófonos</a>
             <a href="#">Instrumental</a>
+            <button class="dropdown-btn">Marcas <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-container">
+                <a href="../Marcas/Kenwood/kenwood.html">Kenwood</a>
+                <a href="../Marcas/Yaesu/yaesu.html">Yaesu</a>
+                <a href="../Marcas/Icom/icom.html">Icom</a>
+            </div>
             <hr>
             <a href="#">Inicio</a>
+            <a href="Nosotros/nosotros.html">Nosotros</a>
             <a href="#">Contacto</a>
         </div>
     </div>
@@ -39,7 +47,7 @@
             </div>
 
             <div class="logo">
-                <img src="Assets/Img/logo1.png" alt="SegundaRadio">
+                <img src="Assets/Img/logo.webp" alt="SegundaRadio">
             </div>
 
             <div class="search-bar">
@@ -55,29 +63,52 @@
             <p>Encuentra radios de radioaficionados, revisadas y garantizadas.</p>
         </section>
         
-        <section class="products-grid">
-            <h2 class="category-title">Radios / VHF</h2>
-    
-    <div class="products-grid">
-        <article class="product-card">
-            <div class="product-image">
-                <img src="Assets/Img/yaesu-ft2980.jpg" alt="Yaesu FT-2980">
-                <span class="status-tag">Disponible</span>
-            </div>
-            <div class="product-info">
-                <span class="category-path">Radios > VHF</span>
-                <h3>Yaesu FT-2980R</h3>
-                <p class="specs">80 Watts - Robusta - Pantalla LCD grande</p>
-                <p class="price">$250.000</p>
-                <div class="card-buttons">
-                    <a href="#" class="btn-detail">Ver más</a>
-                    <a href="https://wa.me/5491133973051" class="btn-whatsapp"><i class="fab fa-whatsapp"></i></a>
-                </div>
-            </div>
-        </article>
-
+        <section class="featured-products">
+        <div class="section-header">
+            <h2><i class="fas fa-star"></i> Últimos Ingresos</h2>
+            <p>Lo más nuevo en nuestra estantería técnica</p>
         </div>
-        </section>
+
+        <div class="products-grid">
+            <article class="product-card featured">
+                <div class="product-image">
+                    <img src="Assets/Img/VHF/ft2980.webp" alt="Yaesu FT-2980R">
+                    <span class="status-tag nuevo">Nuevo Ingreso</span>
+                </div>
+                <div class="product-info">
+                    <h3>Yaesu FT-2980R</h3>
+                    <p class="price">$250.000</p>
+                    <a href="detalles/yaesu-ft2980.html" class="btn-detail">Ver Equipo</a>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/300x200?text=Proximamente" alt="Próximamente">
+                </div>
+                <div class="product-info">
+                    <h3>Icom IC-7300</h3>
+                    <p class="price">Consultar</p>
+                    <a href="#" class="btn-detail">Ver Equipo</a>
+                </div>
+            </article>
+            
+            <article class="product-card">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/300x200?text=Proximamente" alt="Próximamente">
+                </div>
+                <div class="product-info">
+                    <h3>Kenwood TS-590S</h3>
+                    <p class="price">Consultar</p>
+                    <a href="#" class="btn-detail">Ver Equipo</a>
+                </div>
+            </article>
+        </div>
+
+        <div class="view-all-container">
+            <a href="vhf/VHF.html" class="btn-secondary">Ver todo el catálogo</a>
+        </div>
+    </section>
     </main>
 
     <main id="catalogo">
@@ -105,8 +136,8 @@
     <a href="#" onclick="mostrarCategoria('categoria-uhf')">UHF</a>
     <a href="#" onclick="mostrarCategoria('categoria-vhf')">VHF</a>
     <a href="#" onclick="mostrarCategoria('categoria-hf')">HF</a>
-</div>
-<a href="#" onclick="mostrarCategoria('categoria-osciloscopios')">Osciloscopios</a>
+    </div>
+    <a href="#" onclick="mostrarCategoria('categoria-osciloscopios')">Osciloscopios</a>
 
     <footer>
         <p>&copy; 2026 SegundaRadio. Todos los derechos reservados.</p>

@@ -391,3 +391,59 @@ header {
 @media (max-width: 768px) {
     .product-main { flex-direction: column; }
 }
+
+
+
+
+/* Sección de Destacados */
+.featured-products {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-header h2 {
+    color: #012647;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.section-header p {
+    color: #666;
+    font-style: italic;
+}
+
+/* Estilo especial para la tarjeta destacada */
+.product-card.featured {
+    border: 2px solid #012647;
+}
+
+.status-tag.nuevo {
+    background: #e67e22; /* Un naranja llamativo */
+}
+
+.view-all-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn-secondary {
+    display: inline-block;
+    padding: 12px 30px;
+    border: 2px solid #012647;
+    color: #012647;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.btn-secondary:hover {
+    background: #012647;
+    color: white;
+}

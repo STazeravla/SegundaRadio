@@ -4,12 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VHF - SegundaRadio</title>
-    <link rel="stylesheet" href="styleIndex.css">
+    <link rel="stylesheet" href="../styleIndex.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
     <div id="sidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="menu-content">
+            <h3>Categorías</h3>
+            <button class="dropdown-btn">Radios <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-container">
+                <a href="#">UHF</a>
+                <a href="VHF/VHF.html">VHF</a>
+                <a href="#">HF</a>
+            </div>
+            <a href="#">Osciloscopios</a>
+            <a href="../Handy/handy.html">Handy</a>
+            <a href="#">Micrófonos</a>
+            <a href="#">Instrumental</a>
+            <button class="dropdown-btn">Marcas <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-container">
+                <a href="../Marcas/Kenwood/kenwood.html">Kenwood</a>
+                <a href="../Marcas/Yaesu/yaesu.html">Yaesu</a>
+                <a href="../Marcas/Icom/icom.html">Icom</a>
+            </div>
+            <hr>
+            <a href="#">Inicio</a>
+            <a href="Nosotros/nosotros.html">Nosotros</a>
+            <a href="#">Contacto</a>
+        </div>
+    </div>
+
+<!--    <div id="sidebar" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="menu-content">
             <h3>Categorías</h3>
@@ -21,10 +48,10 @@
             <a href="osciloscopios.html">Osciloscopios</a>
             <a href="microfonos.html">Micrófonos</a>
             <hr>
-            <a href="index.html">Inicio</a>
-            <a href="contacto.html">Contacto</a>
+            <a href="../index.html">Inicio</a>
+            <a href="../Contacto/contacto.html">Contacto</a>
         </div>
-    </div>
+    </div>                                   -->
 
     <div id="main-overlay" onclick="closeNav()"></div>
 
@@ -37,8 +64,8 @@
             </div>
 
             <div class="logo">
-                <a href="index.html">
-                    <img src="Assets/Img/logo1.png" alt="SegundaRadio">
+                <a href="../index.html">
+                    <img src="../Assets/Img/logo.webp" alt="SegundaRadio">
                 </a>
             </div>
 
@@ -56,7 +83,7 @@
             <div class="products-grid">
                 <article class="product-card">
                     <div class="product-image">
-                        <img src="Assets/Img/VHF/ft2980.jpeg" id="ft2980" alt="Yaesu FT-2980R" onerror="this.src='https://via.placeholder.com/200x150?text=VHF+Radio'">
+                        <img src="../Assets/Img/VHF/FT-2980/ft2980.webp" id="ft2980" alt="Yaesu FT-2980R" onerror="this.src='https://via.placeholder.com/200x150?text=VHF+Radio'">
                         <span class="status-tag">Disponible</span>
                     </div>
                     <div class="product-info">
@@ -65,7 +92,7 @@
                         <p class="specs">80 Watts de potencia. Robusta y de alto rendimiento para móvil.</p>
                         <p class="price">$250.000</p>
                         <div class="card-buttons">
-                            <a href="vhf/yaesu-ft2980.html" class="btn-detail">Ver ficha</a>
+                            <a href="yaesu-ft2980.html" class="btn-detail">Ver ficha</a>
                             <a href="https://wa.me/5491133973051?text=Hola!%20Me%20interesa%20la%20Yaesu%20FT-2980R%20VHF" class="btn-whatsapp" target="_blank">
                                 <i class="fab fa-whatsapp"></i>
                             </a>
@@ -75,7 +102,7 @@
 
                 <article class="product-card">
                     <div class="product-image">
-                        <img src= "Assets/Img/VHF/ic2300.png" alt="Icom IC-2300H" onerror="this.src='https://via.placeholder.com/200x150?text=Icom+VHF'">
+                        <img src= "../Assets/Img/VHF/ICOM IC-2300/ic2300.webp" alt="Icom IC-2300H" onerror="this.src='https://via.placeholder.com/200x150?text=Icom+VHF'">
                         <span class="status-tag">Disponible</span>
                     </div>
                     <div class="product-info">
@@ -84,13 +111,31 @@
                         <p class="specs">65 Watts FM. Receptor de amplio espectro y diseño compacto.</p>
                         <p class="price">$210.000</p>
                         <div class="card-buttons">
-                            <a href="#" class="btn-detail">Ver ficha</a>
+                            <a href="icom-ic2300.html" class="btn-detail">Ver ficha</a>
                             <a href="https://wa.me/5491133973051" class="btn-whatsapp" target="_blank">
                                 <i class="fab fa-whatsapp"></i>
                             </a>
                         </div>
                     </div>
                 </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="../Assets/Img/VHF/FT-23R/ft23r.webp" alt="Yaesu FT-23R" onerror="this.src='https://via.placeholder.com/200x150?text=VHF+Radio'">
+                        <span class="status-tag">Disponible</span>
+                    </div>
+                    <div class="product-info">
+                        <span class="category-path">Radios > VHF</span>
+                        <h3>Yaesu FT-23R</h3>
+                        <p class="specs">80 Watts de potencia. Compacta y fácil de usar para móvil.</p>
+                        <p class="price">$250.000</p>
+                        <div class="card-buttons">
+                            <a href="ft-23r.html" class="btn-detail">Ver ficha</a>
+                            <a href="https://wa.me/5491133973051?text=Hola!%20Me%20interesa%20la%20Yaesu%20FT-23R%20VHF" class="btn-whatsapp" target="_blank">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
             </div>
         </section>
     </main>
@@ -103,6 +148,8 @@
         <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
     </a>
 
-    <script src="scriptIndex.js"></script>
+    
+
+    <script src="../scriptIndex.js"></script>
 </body>
 </html>
