@@ -13,11 +13,12 @@ UHF
 
 
 VHF
-            YAESU FT-23R	        VHF	El famoso "handy" (portátil) de Yaesu
+        ✓  YAESU FT-23R	        VHF	El famoso "handy" (portátil) de Yaesu
 
-            Yaesu FT-23R 
+        ✓   YAESU FT-212RH	        VHF	Equipo móvil clásico de VHF
 
-
+            KENWOOD TM-271A	        VHF	Un "tanque" de VHF moderno
+         
 
 
 
@@ -29,8 +30,7 @@ VHF
 
             ALINCO DX-70TH	        HF / VHF	Multibanda portátil
             YAESU FT-5100	        VHF / UHF	Móvil bibanda (Doble banda)
-            YAESU FT-212RH	        VHF	Equipo móvil clásico de VHF
-            KENWOOD TM-271A	        VHF	Un "tanque" de VHF moderno
+            
             ICOM IC-260A	        VHF	Equipo base antiguo de VHF
             ICOM IC-7400	        HF / VHF / UHF	Es "Bibanda" + HF (Un todoterreno)
 
