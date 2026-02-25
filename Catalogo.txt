@@ -53,11 +53,17 @@ VHF
 
 
 HF
+            YAESU FT-101ZD	        HF	Un clásico valvular (Onda Corta)
+
+
+
+
+
             ALINCO DX-70TH	        HF / VHF	Multibanda portátil
             YAESU FL-400	        HF	Transmisor de la línea 400
             YAESU FR-400	        HF	Receptor de la línea 400
             ICOM IC-756	HF	        Base de alta gama para HF
             YAESU FT-3000	        HF	Equipo de base potente para HF
             ICOM IC-7400	        HF / VHF / UHF	Es "Bibanda" + HF (Un todoterreno)
-            YAESU FT-101ZD	        HF	Un clásico valvular (Onda Corta)
+            
             YAESU FT-7B	            HF Equipo "QRP" (baja potencia) antiguo

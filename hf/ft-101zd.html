@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yaesu FT-2980R - SegundaRadio</title>
+    <link rel="stylesheet" href="../styleIndex.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+   <div id="sidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="menu-content">
+            <h3>Categorías</h3>
+            <button class="dropdown-btn">Radios <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-container">
+                <a href="#">UHF</a>
+                <a href="../VHF/vhf.html">VHF</a>
+                <a href="HF.html">HF</a>
+            </div>
+            <a href="#">Osciloscopios</a>
+            <a href="../Handy/handy.html">Handy</a>
+            <a href="#">Micrófonos</a>
+            <a href="#">Instrumental</a>
+            <button class="dropdown-btn">Marcas <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-container">
+                <a href="../Marcas/Kenwood/kenwood.html">Kenwood</a>
+                <a href="../Marcas/Yaesu/yaesu.html">Yaesu</a>
+                <a href="../Marcas/Icom/icom.html">Icom</a>
+            </div>
+            <hr>
+            <a href="#">Inicio</a>
+            <a href="Nosotros/nosotros.html">Nosotros</a>
+            <a href="#">Contacto</a>
+        </div>
+    </div>
+    
+    <header>
+        <div class="header-container">
+            <div class="menu-icon" onclick="openNav()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+            <div class="logo">
+                <a href="../index.html"><img src="../Assets/Img/logo.webp" alt="SegundaRadio"></a>
+            </div>
+
+            <div class="header-actions">
+                <a href="../vhf.html" class="btn-back"><i class="fas fa-arrow-left"></i> Volver a VHF</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="product-detail-container">
+        <section class="product-main">
+            <div class="product-gallery">
+                <img src="../Assets/Img/HF/Yaesu/FT-101ZD.webp" alt="Yaesu FT-101ZD" id="main-img">
+                <div class="thumbnails">
+                    <img src="../Assets/Img/HF/Yaesu/FT-101ZD.webp" alt="Vista frontal" onclick="document.getElementById('main-img').src=this.src">
+                    <img src="../Assets/Img/HF/Yaesu/FT-101ZD/ft101zd-VS.webp" alt="Vista trasera" onclick="document.getElementById('main-img').src=this.src">
+                    <img src="../Assets/Img/HF/Yaesu/FT-101ZD/ft101zd-VT.webp" alt="Accesorios" onclick="document.getElementById('main-img').src=this.src">
+                </div>
+            </div>
+
+            <div class="product-purchase">
+                <span class="category-path">Inicio > Radios > HF</span>
+                <h1>Yaesu FT-101ZD</h1>
+                <p class="price-big">$350.000</p>
+                <p class="description">
+                    El Yaesu FT-101ZD es un transceptor de HF de banda corrida legendario, perteneciente a la última generación de la mítica serie 101. Este equipo híbrido combina la estabilidad de la tecnología de estado sólido con la calidez y robustez de una etapa de potencia valvular (2 x 6146B). Ideal para coleccionistas y amantes del audio clásico en AM y SSB, destaca por su excelente filtrado y su sintonía analógica de alta precisión. Una pieza de ingeniería japonesa que sigue siendo referente en calidad de transmisión.
+                </p>
+                
+                <div class="highlights">
+                    <p><i class="fas fa-check"></i>Etapa de Potencia Valvular: Equipado con dos válvulas 6146B para un sonido inconfundible.</p>
+                    <p><i class="fas fa-check"></i>Display Digital: Versión 'ZD' que incluye lectura digital de frecuencia además del dial analógico.</p>
+                    <p><i class="fas fa-check"></i>Filtros de Audio: Excelente rechazo de interferencias y selector de ancho de banda.
+                    <p><i class="fas fa-check"></i> Estado de Colección: Revisado técnicamente para asegurar su rendimiento original.</p>
+                </div>
+
+                <a href="https://wa.me/5491133973051?text=Hola!%20Me%20interesa%20la%20Yaesu%20FT-2980R" class="btn-buy-whatsapp" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Consultar Disponibilidad
+                </a>
+            </div>
+        </section>
+
+        <section class="product-specs">
+            <h2>Especificaciones Técnicas</h2>
+            <table>
+                <tr><td>Rango de Frecuencia</td><td>160m, 80m, 40m, 20m, 15m, 10m</td></tr>
+                <tr><td>Potencia de Salida</td><td>100W PEP (SSB/CW)</td></tr>
+                <tr><td>Modos de Operación</td><td>LSB, USB, CW, AM</td></tr>
+                <tr><td>Válvulas Finales</td><td>2 x 6146B</td></tr>
+                <tr><td>Alimentación</td><td>Fuente interna AC (110/220V)</td></tr>
+                <tr><td>Peso</td><td>15 kg</td></tr>
+                <tr><td>País de Origen</td><td>Japón</td></tr>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 SegundaRadio. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="../scriptIndex.js"></script>
+</body>
+</html>
